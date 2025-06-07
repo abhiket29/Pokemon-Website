@@ -7,9 +7,7 @@ function PokemonCards({ pokemonData }) {
       <figure>
         <img
           className="pokemon-image"
-          // eslint-disable-next-line react/prop-types
           src={pokemonData.sprites.other.dream_world.front_default}
-          // eslint-disable-next-line react/prop-types
           alt={pokemonData.name}
         />
       </figure>
